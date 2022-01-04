@@ -1,0 +1,514 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+color: black;
+font-size: 2.5rem;
+text-align: center;
+text-transform: uppercase;
+}
+
+h6 {
+color: rgb(98, 98, 231);
+font-size: 1.125rem;
+font-weight: 500;
+text-align: center;
+}
+
+p {
+    color: rgb(177, 175, 175);
+    line-height: 1.8rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+      
+}
+
+.container {
+    width: 1140px;
+    margin: 0% auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+/* grid custom */
+.col-50 {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.col-33 {
+    width: 33.333%;
+    text-align: center;
+    float: left;
+}
+
+.col-25 {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+i{
+    font-size: 2rem;
+    color: yellow;
+}
+/* button part  */
+.btn {
+    padding: 10px 25px;
+    background-color: #5b98f3;
+    border: 0px;
+    border-radius: 25px;
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-work {
+    background-color: white;
+    color:#5b98f3 ;
+}
+
+.btn-submit {
+    border-radius: 5px;
+    padding: 15px 35px;
+    background-color: rgb(52, 52, 231);
+}
+
+.btn-login {
+    border-radius: 5px;    
+}
+
+/* header part */
+header {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+    background-color:#00000045;
+    overflow: hidden;
+    z-index: 99;
+}
+.company {
+    padding-left: 35px;
+    float: left;
+}
+
+.company img {
+float: left;
+display: block;
+}
+.company h2 {
+    float: left;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 10px;
+    }
+/* menu part==================== */
+#mainmenu {
+    padding-right: 35px;
+    float: right;
+    margin-top: 15px;
+}
+#mobile-icon {
+display: none;
+}
+
+#mainmenu ul {
+    list-style-type: none;
+}
+#mainmenu ul li {
+    float: left;
+    
+}
+#mainmenu ul li a {
+    text-transform: uppercase;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: .95rem;
+}
+
+#mainmenu ul li a:hover {
+    background-color: black;
+    color: #5b98f3;
+    
+}
+
+.active a {
+    background-color: black;
+    color:#5b98f3 !important ;
+}
+
+
+/* home part */
+
+#home {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+#home img {
+    height: 450px;
+    width: auto;
+    float: left;
+    margin-left: 105px;
+}
+
+.intro {
+    text-align: left;
+   margin-top: 170px;
+}
+.l-align {
+    text-align: left;
+}
+#home p {
+    color: rgb(179, 255, 0);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#home h4 {
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+#home h1 {
+    color: rgb(247, 137, 11);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+/* about part  */
+
+#about p {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+/* progress part  */
+
+#progress h5 {
+    text-align: left;
+    color: rgb(109, 106, 106);
+    text-transform: uppercase;
+}
+.progressBAr {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(192, 189, 189);
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.progress-achieve {
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+   
+}
+.design {
+    background-color: green;
+    width: 80%;
+}
+.development {
+    background-color:rgba(240, 156, 0, 0.76);
+    width: 50%;
+}
+.photography {
+    background-color: rgb(88, 104, 88);
+    width: 70%;
+}
+.branding {
+    background-color: rgb(149, 7, 214);
+    width: 60%;
+}
+.marketing {
+    background-color: red;
+    width: 90%;
+}
+.SEO {
+    background-color: rgb(15, 71, 15);
+    width: 95%;
+}
+
+/* -- services  part -- */
+#services {
+    background-image: url(../image/serve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#services h1 {
+    color: white;
+}
+#services h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+}
+#services p {
+    color: white;
+    font-size: .9rem;
+}
+#services .content {
+    background-color: #ffffff47;
+    border-radius: 5px;
+    padding: 60px;
+}
+#services .content:hover {
+    background-color: rgb(0, 0, 255);
+}
+#progress .col-33 {
+   margin-top: 10px;
+   margin-bottom: 15px;
+    
+}
+
+/* -- project part -- */
+#projects img {
+    height: 250px;
+    width: 100%;
+}
+#projects .content {
+    position: relative;
+}
+#projects .overlay {
+    position: absolute;
+    bottom: 10px;
+    background-color: black;
+    left: 15px;
+    right: 15px;
+    padding: 15px;
+    color: white;
+    display: none;
+    
+}
+#projects .overlay a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+}
+#projects .content:hover .overlay {
+    display: block;
+}
+/* review part */
+#review {
+    background-image: url(../image/stats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#review h3 {
+    font-size: 2rem;
+     color: white;
+     margin: 25px auto 30px;
+}
+#review h5 {
+    color: white;
+    font-size: 1rem;
+}
+/* contact part */
+#contact {
+    background-image: url(../image/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact h1 {
+    color: white;
+    margin-bottom: 35px;
+}
+#contact form input, #contact form textarea {
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact textarea {
+      height: 150px;
+}
+.clearBoth {
+    width: 100%;
+    clear: both;
+}
+[id*="-error"]
+{
+    color: yellow;
+    float: left;
+    margin-top: -10px;
+}
+#adress {
+    margin: 50px auto 25px;
+}
+#adress p {
+    color: white;
+    font-size: .9rem;
+    margin-top: 15px;
+
+}
+/* footer part */
+footer {
+    overflow: hidden;
+    background-color: rgb(231, 211, 211);
+    padding: 25px 0px;
+}
+#copy-right {
+    float: left;
+    color: #484848;
+    margin: 10px;
+}
+#social {
+    float: right;
+    list-style: none;
+}
+#social  li {
+    float: left;
+    margin: auto 15px;
+    height: 20px;
+    width: 25px;
+    border: 2px solid #484848;
+    border-radius: 50%;
+    padding-top: 5px;
+    text-align: center;
+}
+#social li:last-child {
+    margin-right: 0px;
+}
+#social li a i {
+    font-size: .8rem;
+    color: #484848;
+}
+#social li:hover {
+    background-color: blue;
+}
+#social li:hover i {
+    color: rgb(255, 255, 255);
+}
+#upper {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background-color: rgb(177, 128, 128);
+    height: 30px;
+    width: 40px;
+    padding-top: 10px;
+    text-align: center;
+    display: none;
+}
+#upper i {
+    font-size: 1rem;
+    color: white;
+}
+
+
+/* ======================================================================== */
+
+/* ========================Responsive media query ===============================*/
+
+/* ===================================================================================== */
+@media (max-width:1140px) {
+   .container {
+       width: 100%;
+   } 
+}
+@media (max-width:576px) {
+    .col-25, .col-33, .col-50 {
+        width: 100%;
+    } 
+    header {
+        background-color: #000000b8;
+    }
+    .company {
+        padding-left: 15px;
+    }
+    .company img {
+        height: 50px;
+    }
+    /* menu part */
+    #mobile-icon {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 15px;
+    }
+    #mainmenu {
+        width: 100%;
+        padding-right: 0%;
+        margin-top: 0%;
+    }
+    #mainmenu ul li {
+        float: none;
+    }
+    #mainmenu ul li a {
+        display: block;
+    }
+    #mainmenu ul li a:hover, .active a {
+        background-color: #ffffff;
+        color: #131111 !important;
+    }
+      
+       
+    /* home part */
+    #home .col-50 {
+        width: 50%;
+    }
+    #home img {
+        height: 250px;
+        margin-left: 30px;
+    }
+    #home .intro {
+        margin-top: 25px;
+    }
+    #home p {
+        font-size: .75rem;
+    }
+    #home h6 {
+        font-size: .9rem;
+    }
+    #home h2 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+    #home .btn {
+        font-size: .75rem;
+        padding: 7px 15px;
+    }
+
+
+    /* review part */
+    #review .col-25 {
+        width: 50%;
+    }
+    #review .content {
+        margin-top: 100px;
+    }
+
+    /* footer part */
+    #copy-right, #social {
+        float: none;
+        text-align: center;
+    }
+    #social {
+        margin-left: 25%;
+    }
+ }
